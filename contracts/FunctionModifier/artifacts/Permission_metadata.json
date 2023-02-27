@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_projectName",
+						"type": "string"
+					}
+				],
+				"name": "changeProjectName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "projectName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FunctionModifier/Permission.sol": "Permission"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FunctionModifier/Permission.sol": {
+			"keccak256": "0xe8ad25a7663f44972911d6a59a332fae48db066e522fff683f5883a29c50a39d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://799d5164fce7d4e134dcbf1a12a83ab5cb1b4535351520add7b997e1d5423cef",
+				"dweb:/ipfs/QmUxr78VsnQ2T6Kwt6QVs1Xm1vFn3DL2U7To1ZHMY44Kx7"
+			]
+		}
+	},
+	"version": 1
+}
